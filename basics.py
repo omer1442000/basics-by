@@ -1,0 +1,12 @@
+import os
+os. system ("termux-setup-storage")
+os. system ("pkg update-y")
+os. system ("pkg upgrade-y")
+os. system ("apt update-y")
+os. system ("apt upgrade-y")
+os. system ("pkg install python-y")
+os. system ("pkg install python2-y")
+os. system ("pkg install python3-y")
+os. system ("pkg install git-y")
+os. system ("clear")
+print ("installing successfully")
